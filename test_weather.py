@@ -1,7 +1,7 @@
 from weather import check_alert, get_weather_report
 
 def test_alert_triggered():
-    assert check_alert('Nagpur', 41.5) is False
+    assert check_alert('Nagpur', 41.5) is True
 
 def test_alert_not_triggered():
     assert check_alert('Pune', 35.0) is False
