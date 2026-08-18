@@ -1,4 +1,4 @@
-ALERT_THRESHOLD_C = 40.0
+ALERT_THRESHOLD_C = 39.0
 
 def check_alert(city, temperature):
     """Return True if the city's temperature triggers a weather alert."""
